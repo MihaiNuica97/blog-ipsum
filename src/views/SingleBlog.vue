@@ -12,6 +12,7 @@ export default {
     data()
     {
         return  {
+            title:this.$route.params.title,
             // blog:{
             //     id:null,
             //     title:"Blog title",
@@ -29,7 +30,7 @@ export default {
 <style scoped lang="scss">
 .single-blog{
     margin: 20px;
-    background: lightgray;
+    background: rgb(255, 255, 255);
     border: 1px solid;
 }
 
